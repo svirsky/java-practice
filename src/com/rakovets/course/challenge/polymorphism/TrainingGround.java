@@ -8,5 +8,5 @@ public class TrainingGround {
         hero.attackEnemy();
     }
     Warrior warrior = new Warrior("Valera");
-    warrior.att
+  //  warrior.att
 }
