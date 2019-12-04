@@ -11,11 +11,11 @@ public class CustomQueueCarsDemo {
         cars.add(new Car("BMW", "black"));
         cars.add(new Car("Audi", "gray"));
         cars.add(new Car("Renault", "cream"));
-
+        cars.add(new Car("Mercedes", "white"));
         Iterator<Car> iterator = cars.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-        cars.get(1);
+        cars.get(2);
     }
 }
